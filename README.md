@@ -1,3 +1,52 @@
+# Modern Portfolio Website
+
+A sleek, dark-themed portfolio website with responsive design and modern animations.
+
+## Features
+
+- **Fixed Profile Sidebar**: Profile section stays fixed on larger screens for better visual hierarchy
+- **Responsive Layout**: Adapts smoothly to different screen sizes using CSS transitions
+- **Modern Navigation**: Icon-based top navigation with hover effects and active state indicators
+- **Dark Theme**: Elegant dark theme with purple accent colors
+- **Animated Sections**: Scroll reveal animations for content sections
+
+## Responsive Behavior
+
+The portfolio implements a refined responsive design strategy:
+
+### Large Screens (≥1778px)
+- Full-sized fixed profile sidebar on the left
+- Main content scrolls independently on the right
+
+### Medium Screens (1200px-1777px)
+- Profile sidebar remains fixed but scales down smoothly
+- Uses CSS transitions for smooth responsive adjustments
+
+### Small Screens (≤1199px)
+- Profile section becomes a normal scrollable element at the top
+- Content flows in a standard single-column layout
+
+## Technologies Used
+
+- React
+- React Router
+- CSS3 with modern features (transitions, flexbox, grid)
+- FontAwesome icons
+- Responsive design techniques
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start the development server: `npm start`
+4. Build for production: `npm run build`
+
+## Customization
+
+- The color scheme can be easily modified by changing CSS variables in `index.css`
+- Replace the profile image by updating the image in the public folder
+- Edit content in the component files to personalize your portfolio
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
